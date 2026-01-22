@@ -1,0 +1,139 @@
+@import url(columns.css);
+@import url(fonts.css);
+@import url(corporative.css);
+
+
+#espazioa{
+    height: 50vh;
+    margin-top: 30px;
+    display: block;
+    border:solid #00ff1e00;
+}
+
+.ekitaldiak{
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #00d9ff00;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+body:has(.klikagarria1:hover) .ekitaldiak1 {
+  display: flex;
+  opacity: 1;
+}
+
+body:has(.klikagarria2:hover) .ekitaldiak2 {
+  display: flex;
+  opacity: 1;
+}
+
+#edukiontzia{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    overflow: hidden;
+
+}
+
+.edukia{
+    width: 150px;
+    background-color: #0004ff00;
+}
+
+.edukia1{
+display: flex;
+flex-grow: 1;
+justify-content: right;
+align-items: center;
+min-height: 200px;
+max-height: 50vh;
+}
+
+.edukia2{
+background-color: #231d9f00;
+/*flex-grow:1;
+flex-basis: 200px;
+flex: 200px;
+flex-shrink: 1;
+flex:1 0 200px;*/
+
+padding: 20px;
+}
+
+img{
+    max-height:100%;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+.egutegia {
+    padding: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    
+    
+}
+
+table {
+    width: 100%;
+    min-width: 100px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ff0000;
+    text-align: center;
+    width: 14.28%; 
+}
+
+/* Asteko egunen izenak */
+thead th {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+}
+
+/* Egun normalak */
+tbody td {
+    height: 50px;
+}
+
+.klikagarria {
+    background-color: #ff0000; 
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.klikagarria:hover {
+    background-color: #ff0000db; 
+    box-shadow: 0px 0px 40px rgb(255, 0, 0);
+}
+
+/* aurreko eta hurrengo hilabeteetako egunak */
+.beste-hilabetea {
+    background-color: #ff000056;
+    color: #ff9393;
+}
+
+.erosi{
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+@media (min-width:620px){
+    #espazioa{
+        margin-top: 60px;
+    }
+}

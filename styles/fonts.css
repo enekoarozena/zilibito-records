@@ -1,0 +1,49 @@
+@font-face {
+  font-family: erosi;
+  src: url(/Project/fonts/Ostoak.ttf);
+}
+@font-face{
+  font-family: azpigaia;
+  src: url(/Project/fonts/Koldako.ttf);
+}
+@font-face{
+  font-family: vasca;
+  src: url(/Project/fonts/Vasca.ttf);
+}
+
+.title,
+h1{
+    font-family: Saira condensed;
+    font-size: 70px;
+    font-weight: 900;
+    color: #ff0000;
+}
+.azpigaiak{
+  font-family: azpigaia;
+  font-size: 90px;
+  font-weight: 500;
+  color: black;
+}
+
+.erosi{
+  font-family: erosi;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  background-color: #ff0000;
+  display: inline;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  padding-top: 10px;
+  
+}
+.erosi:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+body{
+  font-family:Zalando Sans Expanded;
+}
