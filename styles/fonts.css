@@ -4,11 +4,11 @@
 }
 @font-face{
   font-family: azpigaia;
-  src: url(fonts/Koldako.ttf);
+  src: url(./fonts/Koldako.ttf);
 }
 @font-face{
   font-family: vasca;
-  src: url(fonts/Vasca.ttf);
+  src: url(./fonts/Vasca.ttf);
 }
 
 .title,
