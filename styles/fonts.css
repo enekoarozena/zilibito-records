@@ -14,16 +14,17 @@
 
 .title,
 h1{
-    font-family: Saira condensed;
-    font-size: 70px;
+    font-family: vasca;
+    font-stretch: condensed;
+    font-size: 20px;
     font-weight: 900;
-    color: #ff0000;
+    color: var(--lehen-maila-kolorea);
 }
 .azpigaiak{
   font-family: azpigaia;
   font-size: 90px;
   font-weight: 500;
-  color: black;
+  color: var(--bigarren-maila-kolorea);
 }
 
 .erosi{
@@ -31,8 +32,8 @@ h1{
   font-weight: 500;
   font-size: 30px;
   text-align: center;
-  color: #000000;
-  background-color: #ff0000;
+  color: var(--bigarren-maila-kolorea);
+  background-color: var(--lehen-maila-kolorea);
   display: inline;
   width: 90%;
   height: 40px;
@@ -41,7 +42,7 @@ h1{
   
 }
 .erosi:hover{
-    background-color: #fff;
+    background-color: var(--hirugarren-maila-kolorea);
     cursor: pointer;
 }
 

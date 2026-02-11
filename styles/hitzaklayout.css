@@ -21,8 +21,8 @@
  }
 
 .akordeoi-botoia {
-    background-color: #ff0000;
-    color: #000000;
+    background-color: var(--lehen-maila-kolorea);
+    color: var(--bigarren-maila-kolorea);
     cursor: pointer;
     width: 100%;
     height: 26px;
@@ -35,19 +35,19 @@
 }
 
 .akordeoi-botoia:hover {
-    background-color: #ffffff;
+    background-color: var(--hirugarren-maila-kolorea);
 }
 
 .akordeoi-edukia {
     padding: 0 18px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--bigarren-maila-kolorea);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
 }
 
 .akordeoi-edukia.active {
-    max-height: 900px; 
+    max-height: 3000px; 
     padding: 18px;
     overflow: scroll;
 }
@@ -58,11 +58,11 @@
     border-radius: 8px;
 }
 .akordeoi-edukia::-webkit-scrollbar-thumb{
-    background: rgb(255, 0, 0);
+    background: var(--lehen-maila-kolorea);
     border-radius: 8px;
 }
 .akordeoi-edukia::-webkit-scrollbar-thumb:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--hirugarren-maila-kolorea);
 }
 
 
@@ -73,7 +73,7 @@
     padding: 10px;
 }
 .bideoa{
-    background-color: #eaff0000;
+    background-color: var(--bigarren-maila-kolorea);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -81,14 +81,14 @@
     position: relative;
 }
 .letra{
-    background-color: #283aff00;
+    background-color: var(--bigarren-maila-kolorea);
     padding-left: 40px;
     position: relative;
 
     display: block;
 }
 .kredituak{
-    background-color: #ff04cd00;
+    background-color: var(--bigarren-maila-kolorea);
     padding-left: 40px;
 }
 
@@ -104,7 +104,7 @@ iframe{
     top: 0px;
     display: block;
     z-index: 1;
-    box-shadow: 0px 0px 80px rgba(255, 0, 0, 0.737);
+    box-shadow: 0px 0px 80px var(--lehen-maila-kolorea);
 }
 
 
@@ -132,7 +132,7 @@ iframe{
 
 
     .bideoa{
-    background-color: #00ffe500;
+    background-color: var(--bigarren-maila-kolorea);
     float: left;
     flex-wrap: nowrap;
     max-width: 70%;
@@ -143,7 +143,7 @@ iframe{
     box-shadow: none;
 }
     .kredituak{
-        background-color: #ff04cd00;
+        background-color: var(--bigarren-maila-kolorea);
         float: left;
         width: 30%;
         position: sticky;

@@ -2,6 +2,7 @@
 @import url(fonts.css);
 @import url(corporative.css);
 
+
 .linkak{
     width: 100%;
     padding-top: 50px;
@@ -9,7 +10,7 @@
 
 .azpigaiak{
     width: 100%;
-    background: #ff0000;
+    background: var(--lehen-maila-kolorea);
     height: 46px;
     font-size: 60px;
     margin: 90px 0px;
@@ -18,7 +19,7 @@
     overflow: hidden;
 }
 .azpigaiak:hover{
-    color: white;
+    color: var(--hirugarren-maila-kolorea);
 }
 
 .izarra{
@@ -68,7 +69,9 @@ body:has(.merch:hover) .kamisetak {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
-
+body:has(.azpigaiak:hover){
+  background-color: var(--lehen-maila-kolorea);
+}
 @media(min-width:630px){
   .azpigaiak{
     height: 70px;

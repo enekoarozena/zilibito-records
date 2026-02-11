@@ -2,12 +2,12 @@
 @import url(fonts.css);
 @import url(corporative.css);
 
-
+/*
 #espazioa{
     height: 50vh;
     margin-top: 30px;
     display: block;
-    border:solid #00ff1e00;
+    border:solid var(--bigarren-maila-kolorea);
 }
 
 .ekitaldiak{
@@ -15,7 +15,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #00d9ff00;
+    background-color: var(--bigarren-maila-kolorea);
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -40,7 +40,7 @@ body:has(.klikagarria2:hover) .ekitaldiak2 {
 
 .edukia{
     width: 150px;
-    background-color: #0004ff00;
+    background-color: var(--bigarren-maila-kolorea);
 }
 
 .edukia1{
@@ -53,12 +53,8 @@ max-height: 50vh;
 }
 
 .edukia2{
-background-color: #231d9f00;
-/*flex-grow:1;
-flex-basis: 200px;
-flex: 200px;
-flex-shrink: 1;
-flex:1 0 200px;*/
+background-color: var(--bigarren-maila-kolorea);
+
 
 padding: 20px;
 }
@@ -72,7 +68,7 @@ img{
 
 
 
-
+/*
 
 .egutegia {
     padding: 30px;
@@ -90,48 +86,78 @@ table {
 
 th, td {
     padding: 10px;
-    border: 1px solid #ff0000;
+    border: 1px solid var(--lehen-maila-kolorea);
     text-align: center;
     width: 14.28%; 
 }
 
-/* Asteko egunen izenak */
+/* Asteko egunen izenak 
 thead th {
-    background-color: #ff0000;
-    color: rgb(0, 0, 0);
+    background-color: var(--lehen-maila-kolorea);
+    color:var(--bigarren-maila-kolorea);
 }
 
-/* Egun normalak */
+/* Egun normalak 
 tbody td {
     height: 50px;
 }
 
 .klikagarria {
-    background-color: #ff0000; 
-    color: #000000;
+    background-color: var(--lehen-maila-kolorea); 
+    color: var(--bigarren-maila-kolorea);
     font-weight: bold;
     cursor: pointer; 
     transition: background-color 0.3s;
 }
 
 .klikagarria:hover {
-    background-color: #ff0000db; 
-    box-shadow: 0px 0px 40px rgb(255, 0, 0);
+    background-color: var(--lehen-maila-kolorea); 
+    box-shadow: 0px 0px 40px var(--lehen-maila-kolorea);
 }
 
-/* aurreko eta hurrengo hilabeteetako egunak */
+/* aurreko eta hurrengo hilabeteetako egunak 
 .beste-hilabetea {
     background-color: #ff000056;
     color: #ff9393;
 }
-
-.erosi{
+*/
+/*.erosi{
     width: 90%;
     margin-left: 5%;
     display: block;
     margin-bottom: 50px;
+}*/
+.laster-ikusgai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.loading{
+    height: 40px;
+    display: block;
+    margin-top: 20vh;
+}
+h2{
+    color: var(--hirugarren-maila-kolorea);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40vh;
 }
 
+@media (min-width:620px){
+    .laster-ikusgai{
+        height: 80vh;
+    }
+    .loading{
+        margin-top: 30vh;
+    }
+    h2{
+        margin-bottom: 40vh;
+    }
+}
+/*
 @media (min-width:620px){
     #espazioa{
         margin-top: 60px;
