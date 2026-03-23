@@ -1,0 +1,51 @@
+@font-face {
+  font-family: erosi;
+  src: url('../fonts/Ostoak.ttf');
+}
+@font-face{
+  font-family: azpigaia;
+  src: url('../fonts/Koldako.ttf');
+}
+@font-face{
+  font-family: vasca;
+  src: url('../fonts/Vasca.ttf');
+}
+
+
+.title,
+h1{
+    font-family: vasca;
+    font-stretch: condensed;
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--lehen-maila-kolorea);
+}
+.azpigaiak{
+  font-family: azpigaia;
+  font-size: 90px;
+  font-weight: 500;
+  color: var(--bigarren-maila-kolorea);
+}
+
+.erosi{
+  font-family: erosi;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: var(--bigarren-maila-kolorea);
+  background-color: var(--lehen-maila-kolorea);
+  display: inline;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  padding-top: 10px;
+  
+}
+.erosi:hover{
+    background-color: var(--hirugarren-maila-kolorea);
+    cursor: pointer;
+}
+
+body{
+  font-family:Zalando Sans Expanded;
+}

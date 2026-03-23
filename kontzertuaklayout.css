@@ -1,0 +1,165 @@
+@import url(columns.css);
+@import url(fonts.css);
+@import url(corporative.css);
+
+/*
+#espazioa{
+    height: 50vh;
+    margin-top: 30px;
+    display: block;
+    border:solid var(--bigarren-maila-kolorea);
+}
+
+.ekitaldiak{
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bigarren-maila-kolorea);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+body:has(.klikagarria1:hover) .ekitaldiak1 {
+  display: flex;
+  opacity: 1;
+}
+
+body:has(.klikagarria2:hover) .ekitaldiak2 {
+  display: flex;
+  opacity: 1;
+}
+
+#edukiontzia{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    overflow: hidden;
+
+}
+
+.edukia{
+    width: 150px;
+    background-color: var(--bigarren-maila-kolorea);
+}
+
+.edukia1{
+display: flex;
+flex-grow: 1;
+justify-content: right;
+align-items: center;
+min-height: 200px;
+max-height: 50vh;
+}
+
+.edukia2{
+background-color: var(--bigarren-maila-kolorea);
+
+
+padding: 20px;
+}
+
+img{
+    max-height:100%;
+    max-width: 100%;
+}
+
+
+
+
+
+/*
+
+.egutegia {
+    padding: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    
+    
+}
+
+table {
+    width: 100%;
+    min-width: 100px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--lehen-maila-kolorea);
+    text-align: center;
+    width: 14.28%; 
+}
+
+/* Asteko egunen izenak 
+thead th {
+    background-color: var(--lehen-maila-kolorea);
+    color:var(--bigarren-maila-kolorea);
+}
+
+/* Egun normalak 
+tbody td {
+    height: 50px;
+}
+
+.klikagarria {
+    background-color: var(--lehen-maila-kolorea); 
+    color: var(--bigarren-maila-kolorea);
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.klikagarria:hover {
+    background-color: var(--lehen-maila-kolorea); 
+    box-shadow: 0px 0px 40px var(--lehen-maila-kolorea);
+}
+
+/* aurreko eta hurrengo hilabeteetako egunak 
+.beste-hilabetea {
+    background-color: #ff000056;
+    color: #ff9393;
+}
+*/
+/*.erosi{
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    margin-bottom: 50px;
+}*/
+.laster-ikusgai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.loading{
+    height: 40px;
+    display: block;
+    margin-top: 20vh;
+}
+h2{
+    color: var(--hirugarren-maila-kolorea);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40vh;
+}
+
+@media (min-width:620px){
+    .laster-ikusgai{
+        height: 80vh;
+    }
+    .loading{
+        margin-top: 30vh;
+    }
+    h2{
+        margin-bottom: 40vh;
+    }
+}
+/*
+@media (min-width:620px){
+    #espazioa{
+        margin-top: 60px;
+    }
+}

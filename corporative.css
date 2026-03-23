@@ -1,0 +1,172 @@
+:root{
+    --lehen-maila-kolorea: #000000;
+    --bigarren-maila-kolorea: #ff0000;
+    --hirugarren-maila-kolorea:#ffffff;
+}
+body{
+    background-color: var(--bigarren-maila-kolorea);
+    color: var(--lehen-maila-kolorea);
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.header{
+    margin: 0px;
+    width: 100%;  
+    border: solid var(--lehen-maila-kolorea);
+    background-color: var(--bigarren-maila-kolorea);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;  
+    z-index: 1000;
+}
+
+#desktop{display: none;}
+
+
+li{
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+li a{
+    color: var(--hirugarren-maila-kolorea);
+}
+h1:hover,
+li:hover {
+    background-color: var(--lehen-maila-kolorea);
+    transition: 0.2s;
+    color: var(--hirugarren-maila-kolorea);
+}
+
+#mobile{
+        display: block;
+        align-items: center;
+        justify-content:left;
+    }
+
+    
+ul{
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    }
+li{
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+html::-webkit-scrollbar{
+    background: transparent;
+    margin-left:100000px;
+    width: 30px;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--lehen-maila-kolorea);
+}
+html::-webkit-scrollbar-thumb:hover{
+    background-color: var(--hirugarren-maila-kolorea);
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    position:static;
+    bottom: 0%;
+    background-color:var(--lehen-maila-kolorea);
+}
+
+
+#footerlink a{
+    color: var(--hirugarren-maila-kolorea);
+    font-family: vasca;
+    margin: 10px;
+    display: block;
+}
+#footerlink a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+#bagabiga{
+    height: 100px;
+    margin:20px;
+}
+
+
+
+@media (min-width: 630px) {
+    
+    #mobile{display: none;}
+    #desktop{
+        display: flex;
+        align-items: center;
+        justify-content:left;
+    }
+    .header{
+        height: 50px;
+        top: 0px;
+        position: sticky;
+        top: 0px;
+    }
+    h1{
+        justify-content:left;
+        font-size: 25px;
+    }
+
+    ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    li{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        padding-left: 30px;
+    }
+    #footerlink{
+        width: 90%;
+        /*border: solid white;*/
+        display: flex;
+        justify-content: space-around;
+}
+
+    #footerlink a{
+    display: inline;
+}
+}
+@media(min-width:760px){
+    h1{
+        font-size:32px;
+    }
+}
+@media (min-width:900px){
+    h1{
+        font-size: 40px;
+    }
+}
